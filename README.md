@@ -20,7 +20,7 @@ definition that produced the framework shipped in that release.
 
 | Oseon | Git tag here | Verovio |
 |---|---|---|
-| 1.0 (2), published 2026-09-25 | `oseon-1.0-2` | `version-6.2.1` |
+| 1.0 (3), published 2026-10-10 | `oseon-1.0-3` | `version-6.2.1` |
 
 ## What is in here
 
@@ -47,7 +47,7 @@ Requirements: macOS with Xcode 27 or later (Swift tools 6.0, iOS 17 SDK). No oth
 ```sh
 git clone https://github.com/rnfxl92/oseon-verovio.git
 cd oseon-verovio
-git checkout oseon-1.0-2     # or the tag matching your Oseon build
+git checkout oseon-1.0-3     # or the tag matching your Oseon build
 cd Verovio
 xcodebuild build -scheme VerovioCore -destination 'generic/platform=iOS' -configuration Release \
   CODE_SIGNING_ALLOWED=NO -derivedDataPath build
